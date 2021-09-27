@@ -1,0 +1,7 @@
+GET http://localhost:3000
+###
+GET http://localhost:3000/hoge
+###
+POST http://localhost:3000/hoge
+###
+GET http://localhost:3000/status
