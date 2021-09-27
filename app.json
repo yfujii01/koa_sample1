@@ -1,0 +1,17 @@
+{
+    "name": "koa_sample1",
+    "description": "アプリの説明",
+    "keywords": [
+      "nodejs",
+      "koa",
+      "api"
+    ],
+    "repository": "https://github.com/yfujii01/koa_sample1",
+    "env": {
+      "DUMMY_ENV": {
+        "description": "dummy env.",
+        "value": "hoge"
+      }
+    },
+    "addons": []
+  }
