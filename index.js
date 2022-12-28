@@ -2,6 +2,8 @@ const Koa = require("koa");
 const app = new Koa();
 const Router = require("koa-router");
 const router = new Router();
+const { koaBody } = require('koa-body');
+
 
 router.get("/", (ctx, next) => {
     ctx.body = 'Hello World!!';
@@ -20,6 +22,7 @@ router.get("/status", (ctx, next) => {
     };
 })
 
+app.use(koaBody());
 app.use(router.routes());
 app.use(router.allowedMethods());
 
